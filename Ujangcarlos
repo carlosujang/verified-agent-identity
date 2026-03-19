@@ -8,9 +8,9 @@ on:
         required: true
         default: 'ujangcarlos'
       agent_description:
-        description: 'asc'
+        description: 'ujangcarlos'
         required: true
-        default: 'asclaw AI Agent'
+        default: 'ujangcarlos'
 
 jobs:
   verify:
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "ujangcarlos", "description": "ujangcarlos AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "ujangcarlos", "description": "ujangcarlos"}'
